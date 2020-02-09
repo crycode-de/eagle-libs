@@ -86,6 +86,21 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 <text x="-3.53" y="2.77" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.556" y="-2.818" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
 </package>
+<package name="MJ-5X3.2">
+<description>&lt;b&gt;3.3V CMOS Clock Oscillator&lt;/b&gt;&lt;p&gt;
+Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.2032" layer="51"/>
+<circle x="0.5" y="1" radius="0.254" width="0" layer="21"/>
+<smd name="1" x="-1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
+<smd name="2" x="1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
+<smd name="3" x="1.85" y="1.15" dx="1.1" dy="1.9" layer="1" rot="R270"/>
+<smd name="4" x="-1.85" y="1.15" dx="1.1" dy="1.9" layer="1" rot="R270"/>
+<text x="-2.895" y="2.135" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.921" y="-2.183" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="Q-SHIELD2">
@@ -114,15 +129,15 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MQ2-7X5" prefix="Q">
+<deviceset name="EUROQUARTZ-M*" prefix="Q">
 <description>&lt;b&gt;Keramik-SMD-Quarz, 5x7x1,2mm&lt;/b&gt;
 &lt;p&gt;EUROQUARTZ MQ2 Crystal, 4 pad&lt;/p&gt;
-&lt;p&gt;Soruce: &lt;a href="https://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf"&gt;https://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Soruce: &lt;a href="https://cdn-reichelt.de/documents/datenblatt/B400/MQ.pdf"&gt;MQ&lt;/a&gt;, &lt;a href="https://cdn-reichelt.de/documents/datenblatt/B400/MJ.pdf"&gt;MJ&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="Q-SHIELD2" x="-1.27" y="0"/>
 </gates>
 <devices>
-<device name="" package="MQ2-7X5">
+<device name="MQ" package="MQ2-7X5">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -131,7 +146,20 @@ Source: www.pletronics.com .. sm77h%203.3v.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="REICHELT" value="16,000000-MQ" constant="no"/>
+<attribute name="REICHELT" value="16,000000-MQ"/>
+</technology>
+</technologies>
+</device>
+<device name="MJ" package="MJ-5X3.2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="REICHELT" value="16,000000-MJ"/>
 </technology>
 </technologies>
 </device>
