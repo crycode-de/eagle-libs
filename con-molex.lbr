@@ -10134,8 +10134,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="4" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="5" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-6.1961" y="3.2751" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="6.7041" y="-0.4841" size="1.27" layer="21" ratio="14">1</text>
-<text x="-7.5199" y="-0.4333" size="1.27" layer="21" ratio="14">5</text>
 <text x="-6.3231" y="-4.5989" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -10274,8 +10272,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="2" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="1" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-7.5931" y="-4.7259" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="7.9741" y="-0.3571" size="1.27" layer="21" ratio="14">1</text>
-<text x="-8.7899" y="-0.4333" size="1.27" layer="21" ratio="14">6</text>
 <text x="0.9159" y="-4.7259" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
@@ -10438,8 +10434,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="7" x="-7.62" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-8.8631" y="-4.5989" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="9.3711" y="-0.4841" size="1.27" layer="21" ratio="14">1</text>
-<text x="-10.0599" y="-0.5603" size="1.27" layer="21" ratio="14">7</text>
 <text x="2.1859" y="-4.5989" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
@@ -10619,8 +10613,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="5" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-10.0061" y="-4.7259" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="10.5141" y="-0.4841" size="1.27" layer="21" ratio="14">1</text>
-<text x="-11.3299" y="-0.5603" size="1.27" layer="21" ratio="14">8</text>
 <text x="3.3289" y="-4.7259" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
@@ -10817,8 +10809,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="7" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-11.4031" y="-4.7259" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="11.7841" y="-0.4841" size="1.27" layer="21" ratio="14">1</text>
-<text x="-12.5999" y="-0.5603" size="1.27" layer="21" ratio="14">9</text>
 <text x="4.5989" y="-4.7259" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
@@ -11032,8 +11022,6 @@ Source: http://www.molex.com/product/ffc/52745.html</description>
 <pad name="5" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <pad name="6" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
 <text x="-12.6731" y="-4.5989" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="13.1811" y="-0.4841" size="1.27" layer="21" ratio="14">1</text>
-<text x="-14.8859" y="-0.5603" size="1.27" layer="21" ratio="14">10</text>
 <text x="5.8689" y="-4.5989" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-11.684" y1="-0.254" x2="-11.176" y2="0.254" layer="51"/>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
