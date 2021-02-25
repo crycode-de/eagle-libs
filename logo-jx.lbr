@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>JX Logo</description>
+<packages>
+<package name="PLACE_30MM">
+<description>JX Logo ca. 30mm&lt;br&gt;
+Layer: Place</description>
+<polygon width="0.01" layer="21">
+<vertex x="-16.0797625" y="-7.176634375"/>
+<vertex x="-11.77980625" y="-2.876678125"/>
+<vertex x="-5.3465375" y="-2.876678125"/>
+<vertex x="-5.3465375" y="4.623246875"/>
+<vertex x="-1.013246875" y="8.989871875"/>
+<vertex x="-1.013246875" y="-7.176634375"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="0.420071875" y="-7.076634375"/>
+<vertex x="0.420071875" y="-0.876696875"/>
+<vertex x="1.020065625" y="-0.3100375"/>
+<vertex x="0.420071875" y="0.28995625"/>
+<vertex x="0.420071875" y="6.4565625"/>
+<vertex x="4.0867" y="2.7566"/>
+<vertex x="10.919965625" y="9.623196875"/>
+<vertex x="14.0866" y="6.623228125"/>
+<vertex x="7.186671875" y="-0.276703125"/>
+<vertex x="12.8866125" y="-6.009978125"/>
+<vertex x="9.719978125" y="-9.00995"/>
+<vertex x="4.0867" y="-3.376671875"/>
+</polygon>
+</package>
+<package name="COPPER_30MM">
+<description>JX Logo ca. 30mm&lt;br&gt;
+Layer: Top/Bottom</description>
+<polygon width="0.01" layer="1">
+<vertex x="-16.0797625" y="-7.176634375"/>
+<vertex x="-11.77980625" y="-2.876678125"/>
+<vertex x="-5.3465375" y="-2.876678125"/>
+<vertex x="-5.3465375" y="4.623246875"/>
+<vertex x="-1.013246875" y="8.989871875"/>
+<vertex x="-1.013246875" y="-7.176634375"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0.420071875" y="-7.076634375"/>
+<vertex x="0.420071875" y="-0.876696875"/>
+<vertex x="1.020065625" y="-0.3100375"/>
+<vertex x="0.420071875" y="0.28995625"/>
+<vertex x="0.420071875" y="6.4565625"/>
+<vertex x="4.0867" y="2.7566"/>
+<vertex x="10.919965625" y="9.623196875"/>
+<vertex x="14.0866" y="6.623228125"/>
+<vertex x="7.186671875" y="-0.276703125"/>
+<vertex x="12.8866125" y="-6.009978125"/>
+<vertex x="9.719978125" y="-9.00995"/>
+<vertex x="4.0867" y="-3.376671875"/>
+</polygon>
+</package>
+<package name="RESTRICT_30MM">
+<description>JX Logo ca. 30mm&lt;br&gt;
+Layer: Restrict</description>
+<polygon width="0.01" layer="41">
+<vertex x="-16.0797625" y="-7.176634375"/>
+<vertex x="-11.77980625" y="-2.876678125"/>
+<vertex x="-5.3465375" y="-2.876678125"/>
+<vertex x="-5.3465375" y="4.623246875"/>
+<vertex x="-1.013246875" y="8.989871875"/>
+<vertex x="-1.013246875" y="-7.176634375"/>
+</polygon>
+<polygon width="0.01" layer="41">
+<vertex x="0.420071875" y="-7.076634375"/>
+<vertex x="0.420071875" y="-0.876696875"/>
+<vertex x="1.020065625" y="-0.3100375"/>
+<vertex x="0.420071875" y="0.28995625"/>
+<vertex x="0.420071875" y="6.4565625"/>
+<vertex x="4.0867" y="2.7566"/>
+<vertex x="10.919965625" y="9.623196875"/>
+<vertex x="14.0866" y="6.623228125"/>
+<vertex x="7.186671875" y="-0.276703125"/>
+<vertex x="12.8866125" y="-6.009978125"/>
+<vertex x="9.719978125" y="-9.00995"/>
+<vertex x="4.0867" y="-3.376671875"/>
+</polygon>
+</package>
+<package name="PLACE_50MM">
+<description>JX Logo ca. 50mm&lt;br&gt;
+Layer: Place</description>
+<polygon width="0.01" layer="21">
+<vertex x="-25.0869125" y="-10.729753125"/>
+<vertex x="-18.283065625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="7.94126875"/>
+<vertex x="-1.247075" y="14.8506"/>
+<vertex x="-1.247075" y="-10.729753125"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="1.020871875" y="-10.571525"/>
+<vertex x="1.020871875" y="-0.761328125"/>
+<vertex x="1.970246875" y="0.135303125"/>
+<vertex x="1.020871875" y="1.084678125"/>
+<vertex x="1.020871875" y="10.842134375"/>
+<vertex x="6.822603125" y="4.987659375"/>
+<vertex x="17.63491875" y="15.85271875"/>
+<vertex x="22.592759375" y="11.105846875"/>
+<vertex x="11.727703125" y="0.135303125"/>
+<vertex x="20.74675625" y="-8.936490625"/>
+<vertex x="15.736171875" y="-13.63061875"/>
+<vertex x="6.822603125" y="-4.717053125"/>
+</polygon>
+</package>
+<package name="COPPER_50MM">
+<description>JX Logo ca. 50mm&lt;br&gt;
+Layer: Top/Bottom</description>
+<polygon width="0.01" layer="1">
+<vertex x="-25.0869125" y="-10.729753125"/>
+<vertex x="-18.283065625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="7.94126875"/>
+<vertex x="-1.247075" y="14.8506"/>
+<vertex x="-1.247075" y="-10.729753125"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="1.020871875" y="-10.571525"/>
+<vertex x="1.020871875" y="-0.761328125"/>
+<vertex x="1.970246875" y="0.135303125"/>
+<vertex x="1.020871875" y="1.084678125"/>
+<vertex x="1.020871875" y="10.842134375"/>
+<vertex x="6.822603125" y="4.987659375"/>
+<vertex x="17.63491875" y="15.85271875"/>
+<vertex x="22.592759375" y="11.105846875"/>
+<vertex x="11.727703125" y="0.135303125"/>
+<vertex x="20.74675625" y="-8.936490625"/>
+<vertex x="15.736171875" y="-13.63061875"/>
+<vertex x="6.822603125" y="-4.717053125"/>
+</polygon>
+</package>
+<package name="RESTRICT_50MM">
+<description>JX Logo ca. 50mm&lt;br&gt;
+Layer: Restrict</description>
+<polygon width="0.01" layer="41">
+<vertex x="-25.0869125" y="-10.729753125"/>
+<vertex x="-18.283065625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="-3.92590625"/>
+<vertex x="-8.103665625" y="7.94126875"/>
+<vertex x="-1.247075" y="14.8506"/>
+<vertex x="-1.247075" y="-10.729753125"/>
+</polygon>
+<polygon width="0.01" layer="41">
+<vertex x="1.020871875" y="-10.571525"/>
+<vertex x="1.020871875" y="-0.761328125"/>
+<vertex x="1.970246875" y="0.135303125"/>
+<vertex x="1.020871875" y="1.084678125"/>
+<vertex x="1.020871875" y="10.842134375"/>
+<vertex x="6.822603125" y="4.987659375"/>
+<vertex x="17.63491875" y="15.85271875"/>
+<vertex x="22.592759375" y="11.105846875"/>
+<vertex x="11.727703125" y="0.135303125"/>
+<vertex x="20.74675625" y="-8.936490625"/>
+<vertex x="15.736171875" y="-13.63061875"/>
+<vertex x="6.822603125" y="-4.717053125"/>
+</polygon>
+</package>
+<package name="PLACE_10MM">
+<description>JX Logo ca. 10mm&lt;br&gt;
+Layer: Place</description>
+<polygon width="0.01" layer="21">
+<vertex x="-5.055278125" y="-2.05165625"/>
+<vertex x="-3.70500625" y="-0.690834375"/>
+<vertex x="-1.66905" y="-0.690834375"/>
+<vertex x="-1.66905" y="1.672140625"/>
+<vertex x="-0.29768125" y="3.064609375"/>
+<vertex x="-0.29768125" y="-2.05165625"/>
+</polygon>
+<polygon width="0.01" layer="21">
+<vertex x="0.155928125" y="-2.020009375"/>
+<vertex x="0.155928125" y="-0.05789375"/>
+<vertex x="0.345809375" y="0.1214375"/>
+<vertex x="0.155928125" y="0.31131875"/>
+<vertex x="0.155928125" y="2.262884375"/>
+<vertex x="1.316315625" y="1.091946875"/>
+<vertex x="3.4788625" y="3.265040625"/>
+<vertex x="4.481015625" y="2.30508125"/>
+<vertex x="2.297375" y="0.1319875"/>
+<vertex x="4.101253125" y="-1.682440625"/>
+<vertex x="3.099096875" y="-2.63185"/>
+<vertex x="1.316315625" y="-0.84906875"/>
+</polygon>
+</package>
+<package name="COPPER_10MM">
+<description>JX Logo ca. 10mm&lt;br&gt;
+Layer: Top/Bottom</description>
+<polygon width="0.01" layer="1">
+<vertex x="-5.055278125" y="-2.05165625"/>
+<vertex x="-3.70500625" y="-0.690834375"/>
+<vertex x="-1.66905" y="-0.690834375"/>
+<vertex x="-1.66905" y="1.672140625"/>
+<vertex x="-0.29768125" y="3.064609375"/>
+<vertex x="-0.29768125" y="-2.05165625"/>
+</polygon>
+<polygon width="0.01" layer="1">
+<vertex x="0.155928125" y="-2.020009375"/>
+<vertex x="0.155928125" y="-0.05789375"/>
+<vertex x="0.345809375" y="0.1214375"/>
+<vertex x="0.155928125" y="0.31131875"/>
+<vertex x="0.155928125" y="2.262884375"/>
+<vertex x="1.316315625" y="1.091946875"/>
+<vertex x="3.4788625" y="3.265040625"/>
+<vertex x="4.481015625" y="2.30508125"/>
+<vertex x="2.297375" y="0.1319875"/>
+<vertex x="4.101253125" y="-1.682440625"/>
+<vertex x="3.099096875" y="-2.63185"/>
+<vertex x="1.316315625" y="-0.84906875"/>
+</polygon>
+</package>
+<package name="RESTRICT_10MM">
+<description>JX Logo ca. 10mm&lt;br&gt;
+Layer: Restrict</description>
+<polygon width="0.01" layer="41">
+<vertex x="-5.055278125" y="-2.05165625"/>
+<vertex x="-3.70500625" y="-0.690834375"/>
+<vertex x="-1.66905" y="-0.690834375"/>
+<vertex x="-1.66905" y="1.672140625"/>
+<vertex x="-0.29768125" y="3.064609375"/>
+<vertex x="-0.29768125" y="-2.05165625"/>
+</polygon>
+<polygon width="0.01" layer="41">
+<vertex x="0.155928125" y="-2.020009375"/>
+<vertex x="0.155928125" y="-0.05789375"/>
+<vertex x="0.345809375" y="0.1214375"/>
+<vertex x="0.155928125" y="0.31131875"/>
+<vertex x="0.155928125" y="2.262884375"/>
+<vertex x="1.316315625" y="1.091946875"/>
+<vertex x="3.4788625" y="3.265040625"/>
+<vertex x="4.481015625" y="2.30508125"/>
+<vertex x="2.297375" y="0.1319875"/>
+<vertex x="4.101253125" y="-1.682440625"/>
+<vertex x="3.099096875" y="-2.63185"/>
+<vertex x="1.316315625" y="-0.84906875"/>
+</polygon>
+</package>
+</packages>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
